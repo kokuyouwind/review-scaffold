@@ -1,3 +1,4 @@
-#!/bin/sh
-cd $(dirname $0)/../
+@echo off
+cd /d %~dp0/../../
 docker-compose run -w //work --rm review yarn run lint
+pause

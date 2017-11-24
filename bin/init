@@ -1,2 +1,3 @@
 #!/bin/sh
+cd $(dirname $0)/../
 docker-compose run --rm review review-init -f .
